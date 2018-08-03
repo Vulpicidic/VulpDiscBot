@@ -10,7 +10,7 @@ def getCoinFlip():
     return random.choice(['Heads','Tails'])
 
 # Rolls specified amount of dice with specified number of sides each, returns String with rolls separated by whitespace
-# example: !roll 2D6 -> rolls 2 6-sided dice, returns String "Your roll(s): 4 6"
+# example: !roll 2 D6 -> rolls 2 6-sided dice
 def getDiceRoll(*args):
     diceRolls = list()
     if checkDiceRoll(args) == True:
